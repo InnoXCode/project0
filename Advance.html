@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Advanced Search</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+        }
+        .container {
+            width: 400px;
+            margin: auto;
+            text-align: left;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 6px;
+            margin-bottom: 10px;
+        }
+        .blue-button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Link back to Google Search -->
+    <div class="nav-links">
+        <a href="index.html">Google Search</a>
+    </div>
+
+    <h1>Google Advanced Search</h1>
+
+    <div class="container">
+        <form action="https://www.google.com/search">
+            <label>Find pages with... <strong>all these words:</strong></label>
+            <input type="text" name="as_q">
+
+            <label>Find pages with... <strong>this exact word or phrase:</strong></label>
+            <input type="text" name="as_epq">
+
+            <label>Find pages with... <strong>any of these words:</strong></label>
+            <input type="text" name="as_oq">
+
+            <label>Find pages with... <strong>none of these words:</strong></label>
+            <input type="text" name="as_eq">
+
+            <br><br>
+            <input type="submit" value="Advanced Search" class="blue-button">
+        </form>
+    </div>
+
+</body>
+</html>
